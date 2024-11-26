@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publicação Web e Servidores</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Entendendo Publicação Web e Servidores</h1>
+        <nav>
+            <ul>
+                <li><a href="#publicacao-web">O que é Publicação Web</a></li>
+                <li><a href="#dominio-dns">Domínio e DNS</a></li>
+                <li><a href="#servidores">Servidores Compartilhados e Dedicados</a></li>
+                <li><a href="#servidor-web">Servidores Web</a></li>
+                <li><a href="#backup">Backup e Restauração</a></li>
+                <li><a href="#banco">Banco de Dados</a></li>
+                <li><a href="#ssh">Serviço SSH</a></li>
+                <li><a href="#linux">Linux e Distribuições</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="publicacao-web">
+            <h2>O que é Publicação Web?</h2>
+            <p>É o processo de disponibilizar conteúdo (textos, imagens, vídeos, etc.) ou aplicações acessíveis na internet. Isso é feito usando servidores web, hospedagem e um domínio.</p>
+            <p>Existem dois tipos de aplicações web, são elas as aplicações estáticas e as aplicações dinâmicas</p>
+            <h4>Aplicações estáticas:</h4> São compostas por arquivos HTML, CSS e JavaScript que não mudam dinamicamente. São rápidas e simples de criar, mas não interagem com bancos de dados.
+            <h4>Aplicações dinâmicas:</h4> Interagem com bancos de dados e podem exibir conteúdo personalizado para cada usuário. Por exemplo, redes sociais e e-commerces.
+            <h4>E quais são suas diferenças?</h4>Geralmente paginas estáticas costumam ser mais simples, carregam com mais facilidade e são mais faceis de serem hospedadas, já as paginas dinâmicas costmam oferecer funcionalidades mais avançadas, em contra partida exigem maiores recursos do servidor onde estarão hospedadas.
+        </section>
+
+        <section id="dominio-dns">
+            <h2>Domínio e DNS</h2>
+            <h4>Domínio:</h4> É o endereço amigável usado para acessar um site (ex.: www.google.com; www.g1.com.br; www.github.com.br). Ele substitui o IP do servidor, tornando a navegação mais fácil e acessível.</p>
+            <h4>DNS (Domain Name System):</h4> É o sistema que traduz o domínio para o endereço IP do servidor onde o site está hospedado. Exemplo: Traduz www.google.com para algo como 142.250.190.46.
+            
+        </section>
+
+        <section id="servidores">
+            <h2>Servidores Compartilhados e Dedicados</h2>
+            <h4>Servidor compartilhado:</h4> 
+            <P>Trata-se de um único servidor que é utilizado por vários usuários, trazendo a vantagem da redução do custo para operar no servidor, além de ter uma fácil configuração.</P>
+            <P>A desvantagem dos serviores compartilhados são os recursos que na maioria das vezes são limitados, possui uma menor segurança e por ter acessos simultâneos o desempenho acaba sendo prejudicado.</P>
+            <h4>Servidor dedicado:</h4>
+            <p>O servidor é utilizado exclusivamente por um cliente, seu alto desempenho, segurança e controle </p>
+            <p>A desvantagens destes servidores são os custo  elevados já que é necessário de conhecimentos técnicos para gerenciar.</p>
+        </section>
+
+        <section id="servidor-web">
+            <h2>Servidores Web</h2>
+            <p>É o ambiente em que os arquivos de um site são armazenados e disponibilizados na internet. É ele quem recebe, armazena processa e posteriormente fornece as infomações buscadas na internet pelo usuário.</p>
+            <p>Os dois principais servidores são Apache e Nginx</p>
+            <h4>Apache:</h4>O servidor web mais antigo e utilizado na internet, é conhecido pela flexibilidade e compatibilidade com vários sistemas operacionais e tecnologias. É gratuito, de código aberto e multiplataforma.
+            <h4>Nginx</h4>Um servidor web mais recente, lançado em 2004, é conhecido pela escalabilidade, velocidade e eficiência. É gratuito, de código aberto e multiplataforma. É muito utilizado em sites de grande escala.
+        </section>
+
+        <section id="backup">
+            <h2>Backup e Restauração</h2>
+            <p>Para criar um backup compactado...</p>
+            <!-- Inclua comandos de terminal e imagens -->
+        </section>
+
+        <section id="banco">
+            <h2>Banco de Dados</h2>
+            <p>Um servidor de banco de dados é um sistema informático que armazena, organiza, protege e fornece acesso a um ou mais bancos de dados. Ele pode ser um hardware dedicado ou um servidor virtualizado.</p>
+            <!-- Inclua comandos de terminal e imagens -->
+        </section>
+
+        <section id="ssh">
+            <h2>Serviço SSH</h2>
+            <p>O SSH (Secure Shell) é um protocolo de segurança que permite a transferência de dados entre um computador e um servidor remoto de forma segura. Ele funciona como uma "ponte segura" entre o usuário e o servidor, criptografando toda a comunicação e protegendo-a contra ameaças externas.</p>
+
+        </section>
+
+        <section id="linux">
+            <h2>Linux e Comandos Básicos</h2>
+            <p>O Linux é um sistema operacional para computadores desenvolvido a partir de um modelo de código aberto. le é conhecido por sua flexibilidade, capacidade de personalização e eficiência, e é uma alternativa popular aos principais sistemas operacionais pago</p>
+            <h4>Principais distribuições para servidores:</h4>
+            <p>Ubuntu Server: Amigável para iniciantes.</p>
+            <p>CentOS (agora AlmaLinux): Estável e usado em empresas.</p>
+            <p>Debian: Focado em estabilidade.</p>
+            <p>Red Hat Enterprise Linux (RHEL): Suporte corporativo.</p>
+            <h4>ls:</h4> Lista arquivos e diretórios.
+            <h4>cd:</h4> Navega entre diretórios.
+            <h4>mkdir:</h4> Cria um novo diretório.
+            <h4>rm:</h4> Remove arquivos ou diretórios.
+            <h4>cp:</h4> Copia arquivos ou diretórios.
+            <h4>mv:</h4> Move ou renomeia arquivos.
+            <h4>chmod:</h4> Modifica permissões de arquivos.
+            <h4>sudo:</h4> Executa comandos com privilégios administrativos.
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 - Página criada por Ramon Dias</p>
+    </footer>
+</body>
+</html>
